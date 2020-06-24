@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+    font: 1em sans-serif;
+}
+header {
+    margin: 70px;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    background-color: aqua;
+    top: 0;
+    right: 0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0 15px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+section {
+    display: block;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+
+@media (max-width: 991px) {
+    #chicken,#beef {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+    #sushi {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        display: block;
+        width: auto;
+    }
+}
