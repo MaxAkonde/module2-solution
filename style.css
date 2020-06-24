@@ -1,5 +1,4 @@
 body {
-    background-color: gray;
     font: 1em sans-serif;
 }
 header {
@@ -9,7 +8,6 @@ header {
 
 .title {
     position: absolute;
-    background-color: aqua;
     top: 0;
     right: 0;
     border-left: 1px solid black;
@@ -29,6 +27,26 @@ section {
     padding: 10px;
     margin: 10px;
     width: 30%;
+}
+
+#chicken {
+    background-color: coral;
+}
+#beef {
+    background-color: crimson;
+}
+#sushi {
+    background-color: darkolivegreen;
+}
+
+#chicken > .title {
+    background-color: cadetblue;
+}
+#beef > .title {
+    background-color: darkgray;
+}
+#sushi > .title {
+    background-color: darkorange;
 }
 
 @media (max-width: 991px) {
